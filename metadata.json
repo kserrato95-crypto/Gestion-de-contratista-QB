@@ -1,0 +1,6 @@
+{
+  "name": "Gestión de Contratistas",
+  "description": "Plataforma institucional de gestión y seguimiento de contratistas para entidades públicas en Colombia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

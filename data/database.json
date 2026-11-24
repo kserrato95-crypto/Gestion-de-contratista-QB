@@ -1,0 +1,1403 @@
+{
+  "users": [
+    {
+      "id": "user-admin-01",
+      "tipoDocumento": "CC",
+      "numeroDocumento": "10000001",
+      "nombres": "Administrador",
+      "apellidos": "General del Sistema",
+      "email": "admin@quimbaya.gov.co",
+      "telefono": "3100000000",
+      "profesion": "Oficina de Control Interno y Sistemas",
+      "rol": "admin",
+      "passwordHash": "2285ba223ac44a0cc5f9a32a97da3370f58831e48c15dc9791921ea74402f6b5c4958808fd81b6094483c5825d790590557263461f0494afa182c8953be458f9",
+      "salt": "db10786cd86b7a521986f477267f55b9",
+      "direccion": "Palacio Municipal de Quimbaya, Quindío",
+      "estado": "activo",
+      "createdAt": "2026-10-21T17:01:56.593Z",
+      "updatedAt": "2026-10-21T17:01:56.593Z"
+    },
+    {
+      "id": "user-supervisor-01",
+      "tipoDocumento": "CC",
+      "numeroDocumento": "18470223",
+      "nombres": "Carlos Alberto",
+      "apellidos": "Correa Mejía",
+      "email": "supervisor@entidad.gov.co",
+      "telefono": "3175519367",
+      "profesion": "Subsecretario Tecnologías de las Comunicaciones y la Información",
+      "rol": "supervisor",
+      "passwordHash": "cbdea91d851134f8a2ca6abe1726c2f3cd3d6f78c91aeb3555038d9c4f342c5a1ed348b2165dc1163bdeae3bbcb6ad421e69dc5895b99fee92c90df42f7021d5",
+      "salt": "b5e04a362201a6e5f0e65df74eac83f6",
+      "direccion": "Carrera 6 Calle 12 Esquina, Quimbaya, Quindío",
+      "estado": "activo",
+      "createdAt": "2026-10-21T16:36:40.491Z",
+      "updatedAt": "2026-10-21T16:36:40.492Z"
+    },
+    {
+      "id": "user-contratista-01",
+      "tipoDocumento": "NIT",
+      "numeroDocumento": "900687199-1",
+      "nombres": "Seven Soluciones",
+      "apellidos": "Informáticas S.A.S",
+      "email": "carlos.mendoza@contratista.gov.co",
+      "telefono": "3243018787",
+      "profesion": "Soluciones Tecnológicas e Informáticas",
+      "rol": "contratista",
+      "passwordHash": "7de3d4661fa5937a5ab6716e1c32d2693d6ea68dce45336813e4793d8a534176f985da506e5b9e3c3e04e5e500e81da720a1059b4f73cb367c4663bba6326dbc",
+      "salt": "5e79be3ad78474a9812756bb933bdb2a",
+      "direccion": "Carrera 6 Calle 12 Esquina, Quimbaya",
+      "banco": "Bancolombia",
+      "tipoCuenta": "Ahorros",
+      "numeroCuenta": "86517884351",
+      "eps": "Nueva EPS",
+      "afp": "Colfondos",
+      "arl": "Positiva Compañía de Seguros S.A.",
+      "estado": "activo",
+      "createdAt": "2026-10-21T16:36:40.492Z",
+      "updatedAt": "2026-10-21T16:36:40.492Z"
+    },
+    {
+      "id": "user-supervisor-1792602130390-be4v",
+      "tipoDocumento": "CC",
+      "numeroDocumento": "75098234",
+      "nombres": "María Elena",
+      "apellidos": "Restrepo Gómez",
+      "email": "maria.restrepo@quimbaya.gov.co",
+      "telefono": "3128904532",
+      "profesion": "Secretaria General y de Gobierno",
+      "rol": "supervisor",
+      "passwordHash": "56ba78df6d4b395cb78c9c72362c3f77a81c9de1f10f277fb5871235f144d41b62b0fab263fdb3b75c850a9552d9fcbb76831449b959b54c88b102dee232c821",
+      "salt": "32459659d4cfe491725dba45b3cfe14a",
+      "direccion": "Palacio Municipal Piso 2, Quimbaya",
+      "estado": "activo",
+      "createdAt": "2026-10-21T17:02:10.390Z",
+      "updatedAt": "2026-10-21T17:02:10.390Z"
+    },
+    {
+      "id": "user-contratista-1792602130602-bp9l",
+      "tipoDocumento": "CC",
+      "numeroDocumento": "1094987654",
+      "nombres": "Andrés Felipe",
+      "apellidos": "Ramírez Jaramillo",
+      "email": "andres.ramirez@profesional.com",
+      "telefono": "3157891234",
+      "profesion": "Ingeniero Ambiental y de Recursos Naturales",
+      "rol": "contratista",
+      "passwordHash": "1f9d962a844f6753dd590522ff581ef4ac4293bb328ced669d7ce8e2c5a352c549e194488bb8814ef30d440d710f739eab49fb2b8a8fe64bfc8876caadae6ee1",
+      "salt": "261b569b90d910e26d3e6fee87c11156",
+      "direccion": "Barrio Obrero, Quimbaya",
+      "banco": "",
+      "tipoCuenta": "",
+      "numeroCuenta": "",
+      "eps": "",
+      "afp": "",
+      "arl": "",
+      "estado": "activo",
+      "createdAt": "2026-10-21T17:02:10.602Z",
+      "updatedAt": "2026-10-21T17:02:10.602Z"
+    },
+    {
+      "id": "user-contratista-1795463134132-ztlw",
+      "tipoDocumento": "CC",
+      "numeroDocumento": "99887766",
+      "nombres": "Prueba",
+      "apellidos": "Persistencia",
+      "email": "prueba.persistencia@test.gov.co",
+      "telefono": "3001112233",
+      "profesion": "",
+      "rol": "contratista",
+      "passwordHash": "3091eca6fc59fdd1936cea8e1a2c0210cd7f7bf3ce1b221cedaef1df9012649d4127630da5af25bf1a09743c1685d943d2e3a5a745d180cc94fc38447dbfec5e",
+      "salt": "f9598eba75394babf01f38cf77a98023",
+      "direccion": "",
+      "banco": "",
+      "tipoCuenta": "",
+      "numeroCuenta": "",
+      "eps": "",
+      "afp": "",
+      "arl": "",
+      "estado": "activo",
+      "createdAt": "2026-11-23T19:45:34.132Z",
+      "updatedAt": "2026-11-23T19:45:34.132Z"
+    }
+  ],
+  "contracts": [
+    {
+      "id": "contract-001",
+      "numeroContrato": "No 230 DEL 2026",
+      "tipoContrato": "CONTRATO DE PRESTACIÓN DE SERVICIOS",
+      "entidadContratante": "MUNICIPIO DE QUIMBAYA, QUINDÍO",
+      "nitEntidad": "890.000.613-4",
+      "contratistaId": "user-contratista-01",
+      "contratistaNombre": "Seven Soluciones Informáticas S.A.S",
+      "contratistaDocumento": "900687199-1",
+      "supervisorResponsable": "Carlos Alberto Correa Mejía",
+      "supervisorCargo": "SUBSECRETARIO TECNOLOGÍAS DE LAS COMUNICACIONES Y LA INFORMACIÓN",
+      "supervisorDocumento": "18470223",
+      "lugarEjecucion": "QUIMBAYA, QUINDÍO",
+      "objeto": "“PRESTACION DE SERVICIOS DE SOPORTE, ACTUALIZACION Y MANTENIMIENTO PARA EL SISTEMA DE INFORMACION INTRAWEB VENTANILLA UNICA EN LA ALCALDIA MUNICIPAL DE QUIMBAYA.”",
+      "fechaInicio": "2026-01-22",
+      "fechaFin": "2026-12-31",
+      "valorTotal": 13785393.3,
+      "honorariosMensuales": 4595131,
+      "obligacionesContractuales": [
+        "1. Realizar la actualización del sistema de información, Intraweb Ventanilla Única en la Alcaldía de Quimbaya conforme a la normatividad vigente.",
+        "2. Proveer y mantener un sistema integrado de atención al ciudadano que facilite a la comunidad la adecuada gestión de peticiones, quejas, reclamos y denuncias (PQRD), mediante un sistema de información que permita el registro, seguimiento y control en línea de los requerimientos.",
+        "3. Implementar una unidad de correspondencia digital que ofrezca un marco de trabajo flexible orientado a la estrategia cero papel, mediante la inclusión de procesos electrónicos reflejados en la creación, gestión y almacenamiento de documentos en soportes digitales.",
+        "4. Adecuar y migrar los sistemas web Intraweb de la Alcaldía Municipal de Quimbaya desde el servidor local a un esquema de infraestructura en la nube, brindando servicios de hosting y alojamiento que garanticen el acceso a la Ventanilla Única desde cualquier lugar con conexión a internet, y que permitan ampliar la interacción y el acceso de los ciudadanos al aplicativo.",
+        "5. Prestar el servicio de mesa de ayuda virtual, que permita la ejecución de actividades de mantenimiento, soporte técnico y actualización de los programas informáticos de manera remota, mediante el uso de protocolos seguros de internet, garantizando adecuado funcionamiento de la plataforma web y de los servicios en la nube de la Entidad.",
+        "6. Brindar un total de ocho (8) horas de acompañamiento y capacitación mensual distribuidas en cuatro (4) horas de acompañamiento y/o capacitación presencial y cuatro (4) horas de acompañamiento virtual."
+      ],
+      "periodicidadPago": "Cuatro (4) pagos periódicos",
+      "condicionesPago": "Previa presentación y aprobación del informe mensual de actividades, acta de supervisión y constancia de pago de aportes a la seguridad social.",
+      "codigoSecop": "CO1.PCCNTR.789124",
+      "cdpNumero": "000020",
+      "cdpFecha": "2026-01-05",
+      "crpNumero": "000304",
+      "crpFecha": "2026-01-22",
+      "vigenciaDias": 344,
+      "polizas": {
+        "aplica": false,
+        "amparos": "N/A"
+      },
+      "modificaciones": [],
+      "historialActas": [
+        {
+          "nroActa": 1,
+          "periodo": "22/01/2026 al 24/04/2026",
+          "valorTotal": 13785393.3,
+          "valorEjecutado": 4595131,
+          "saldo": 9190262.3,
+          "fecha": "2026-04-28"
+        }
+      ],
+      "estado": "Activo",
+      "createdAt": "2026-10-21T16:36:40.492Z",
+      "updatedAt": "2026-10-21T16:36:40.492Z"
+    }
+  ],
+  "reports": [
+    {
+      "id": "report-002",
+      "contratoId": "contract-001",
+      "numeroContrato": "No 230 DEL 2026",
+      "contratistaId": "user-contratista-01",
+      "contratistaNombre": "Seven Soluciones Informáticas S.A.S",
+      "periodo": "25/04/2026 - 24/08/2026",
+      "fechaInicioPeriodo": "2026-04-25",
+      "fechaFinPeriodo": "2026-08-24",
+      "numeroActa": 2,
+      "lugarFechaActa": "QUIMBAYA, QUINDÍO, 9 DE OCTUBRE DE 2026",
+      "actividades": [
+        {
+          "id": "act-1",
+          "obligacion": "1. Realizar la actualización del sistema de información, Intraweb Ventanilla Única en la Alcaldía de Quimbaya conforme a la normatividad vigente.",
+          "actividadRealizada": "Se realizó un acta de seguimiento ya que en el Informe No 1, se presentó la actualización del Sistema Intraweb Ventanilla Única De La Alcaldía De Quimbaya.",
+          "productos": "Acta de seguimiento de actualización Intraweb Ventanilla Única.",
+          "fechas": "Mayo - Junio 2026",
+          "fotografias": [
+            {
+              "id": "photo-1",
+              "url": "",
+              "descripcion": "Interfaz principal actualizada del Sistema Intraweb Ventanilla Única"
+            }
+          ],
+          "soportes": [
+            {
+              "id": "doc-1",
+              "nombre": "Acta_Actualizacion_Intraweb_2026.pdf"
+            }
+          ]
+        },
+        {
+          "id": "act-2",
+          "obligacion": "2. Proveer y mantener un sistema integrado de atención al ciudadano que facilite a la comunidad la adecuada gestión de peticiones, quejas, reclamos y denuncias (PQRD), mediante un sistema de información que permita el registro, seguimiento y control en línea de los requerimientos.",
+          "actividadRealizada": "Se llevan a cabo asesorías sobre la implementación del sistema funcional y accesible por la comunidad del municipio a través de un servicio de alojamiento web y la disposición del dominio www.ventanillaunicaquimbaya.gov.co Asimismo, se actualiza vigencias el cual integra servicios de correspondencia externa recibida y enviada con el módulo de PQRSD.",
+          "productos": "Módulo de PQRSD y correspondencia en línea operativo 24/7.",
+          "fechas": "Junio - Julio 2026",
+          "fotografias": [],
+          "soportes": [
+            {
+              "id": "doc-2",
+              "nombre": "Certificacion_Disponibilidad_PQRSD.pdf"
+            }
+          ]
+        },
+        {
+          "id": "act-3",
+          "obligacion": "3. Implementar una unidad de correspondencia digital que ofrezca un marco de trabajo flexible orientado a la estrategia cero papel, mediante la inclusión de procesos electrónicos reflejados en la creación, gestión y almacenamiento de documentos en soportes digitales.",
+          "actividadRealizada": "En cumplimiento de la obligación de Correspondencia Digital opera bajo la estrategia \"cero papel\" mediante procesos electrónicos para la creación, gestión y almacenamiento de documentos.",
+          "productos": "Estrategia cero papel aplicada a correspondencia oficial radicada.",
+          "fechas": "Julio 2026",
+          "fotografias": [],
+          "soportes": []
+        },
+        {
+          "id": "act-4",
+          "obligacion": "4. Adecuar y migrar los sistemas web Intraweb de la Alcaldía Municipal de Quimbaya desde el servidor local a un esquema de infraestructura en la nube, brindando servicios de hosting y alojamiento que garanticen el acceso a la Ventanilla Única desde cualquier lugar con conexión a internet, y que permitan ampliar la interacción y el acceso de los ciudadanos al aplicativo.",
+          "actividadRealizada": "El sistema de Intraweb se encuentra disponible, vigente y estable brindando una infraestructura en la nube que garantiza el servicio oportuno a la ciudadanía de Quimbaya a través de dominio https://www.ventanillaunicavirtualquimbaya.gov.co/",
+          "productos": "Infraestructura cloud activa y monitoreada.",
+          "fechas": "Julio - Agosto 2026",
+          "fotografias": [],
+          "soportes": []
+        },
+        {
+          "id": "act-5",
+          "obligacion": "5. Prestar el servicio de mesa de ayuda virtual, que permita la ejecución de actividades de mantenimiento, soporte técnico y actualización de los programas informáticos de manera remota, mediante el uso de protocolos seguros de internet, garantizando adecuado funcionamiento de la plataforma web y de los servicios en la nube de la Entidad.",
+          "actividadRealizada": "Se brindó por parte del proveedor Seven Soluciones Informáticas S.A.S mesa de ayuda a través de la línea atención No 3243018787, y la página web www.seven.com.co garantizando una respuesta eficiente y continua a los usuarios.",
+          "productos": "Mesa de ayuda y tickets de soporte atendidos oportunamente.",
+          "fechas": "Agosto 2026",
+          "fotografias": [],
+          "soportes": []
+        },
+        {
+          "id": "act-6",
+          "obligacion": "6. Brindar un total de ocho (8) horas de acompañamiento y capacitación mensual distribuidas en cuatro (4) horas de acompañamiento y/o capacitación presencial y cuatro (4) horas de acompañamiento virtual.",
+          "actividadRealizada": "La entidad no requirió el acompañamiento; sin embargo, ya tenemos definido fechas y un plan de trabajo para su ejecución en el próximo periodo.",
+          "productos": "La entidad no hizo uso de las horas de acompañamiento presencial.",
+          "fechas": "Agosto 2026",
+          "fotografias": [],
+          "soportes": []
+        }
+      ],
+      "logros": "Continuidad operativa y alta disponibilidad del portal de Ventanilla Única.",
+      "dificultades": "Ninguna novedad presentada durante el período evaluado.",
+      "estado": "En revisión",
+      "observacionesSupervisor": "Actividades ejecutadas a entera satisfacción. Se verifica correspondencia entre obligaciones, productos y aportes a seguridad social.",
+      "historialEstados": [
+        {
+          "estado": "Borrador",
+          "fecha": "2026-09-28T10:00:00Z",
+          "usuario": "Seven Soluciones Informáticas S.A.S",
+          "observaciones": "Inicio de diligenciamiento del informe."
+        },
+        {
+          "estado": "Radicado",
+          "fecha": "2026-10-02T14:30:00Z",
+          "usuario": "Seven Soluciones Informáticas S.A.S",
+          "observaciones": "Radicación formal del informe y soportes para supervisión."
+        },
+        {
+          "estado": "En revisión",
+          "fecha": "2026-10-04T09:00:00Z",
+          "usuario": "Carlos Alberto Correa Mejía",
+          "observaciones": "Apertura de acta de supervisión para validación técnica."
+        }
+      ],
+      "fechaRadicacion": "2026-10-02T14:30:00Z",
+      "fechaRevision": "2026-10-04T09:00:00Z",
+      "revisadoPor": "Carlos Alberto Correa Mejía",
+      "financiero": {
+        "valorInicial": 13785393.3,
+        "valoresAdicionales": 0,
+        "valorPagadoALaFecha": 4595131,
+        "valorPresentePago": 4595131,
+        "saldoPorPagar": 9190262.3,
+        "saldoPorEjecutar": 9190262.3,
+        "valorTotalFinal": 13785393.3,
+        "porcentajeAvanceTiempoPeriodo": 33.33,
+        "porcentajeAvanceFinancieroPeriodo": 33.33,
+        "porcentajeAvanceTiempoAcumulado": 66.66,
+        "porcentajeAvanceFinancieroAcumulado": 66.66
+      },
+      "verificacionIntegral": {
+        "tecnico": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "administrativo": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "financiero": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "contable": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "juridico": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "bienesRecibidos": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "bienesPendientes": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "informesPresentados": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        }
+      },
+      "controlNovedades": {
+        "retrasos": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "requerimientos": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "incumplimiento": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "ajusteCronograma": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "suspensionProrroga": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "riesgos": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        }
+      },
+      "controlPrincipios": {
+        "cumplimientoObligaciones": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "correspondenciaActividades": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "soportesSuficientes": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "observanciaPrincipios": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "situacionesRequerimiento": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        }
+      },
+      "analisisPago": {
+        "relacionObligaciones": {
+          "verificacion": "SI",
+          "observaciones": ""
+        },
+        "productosRevisados": {
+          "verificacion": "SI",
+          "observaciones": ""
+        },
+        "soportesSuficientes": {
+          "verificacion": "SI",
+          "observaciones": ""
+        },
+        "seguridadSocialVerificada": {
+          "verificacion": "SI",
+          "observaciones": ""
+        },
+        "procedeReconocimiento": {
+          "verificacion": "SI",
+          "observaciones": ""
+        }
+      },
+      "conceptoGeneral": "Satisfactorio",
+      "conclusionSeguimiento": "Una vez revisadas las obligaciones contractuales, las actividades ejecutadas, los productos entregados y los soportes documentales, se deja constancia de que la ejecución del contrato durante el periodo comprendido entre el 24 de julio y el 22 de agosto de 2026 fue SATISFACTORIA y procede el trámite del pago correspondiente. No se presentaron observaciones adicionales ni novedades que afectaran la ejecución contractual.",
+      "cumplimientoObjeto": "Se cumplió satisfactoriamente el objeto contractual durante el periodo informado.",
+      "recursosUtilizados": "Los recursos suministrados por la Alcaldía de Quimbaya.",
+      "evidenciasEjecucion": "Informe de actividades, productos y evidencias publicadas en la plataforma SECOP II.",
+      "historialActasConcepto": [
+        {
+          "nroActa": 1,
+          "valorTotal": 13785393.3,
+          "valorEjecutado": 4595131,
+          "saldo": 9190262.3
+        },
+        {
+          "nroActa": 2,
+          "valorTotal": 13785393.3,
+          "valorEjecutado": 9190262,
+          "saldo": 4595131.3
+        }
+      ],
+      "aportesSeguridadSocial": [
+        {
+          "comprobanteNo": "6018142066",
+          "entidad": "SOI",
+          "planillaNo": "9845217430",
+          "valorAporte": 10769300,
+          "periodoCotizacion": "Mayo",
+          "salud": {
+            "entidad": "Nueva EPS",
+            "valor": 1732200
+          },
+          "pension": {
+            "entidad": "Colfondos",
+            "valor": 7078400
+          },
+          "riesgosLaborales": {
+            "entidad": "Positiva Compañía de Seguros S.A.",
+            "valor": 226500
+          },
+          "cajaCompensacion": {
+            "entidad": "Comfenalco",
+            "valor": 1732200
+          }
+        },
+        {
+          "comprobanteNo": "6025389247",
+          "entidad": "SOI",
+          "planillaNo": "9845217431",
+          "valorAporte": 11117300,
+          "periodoCotizacion": "Junio",
+          "salud": {
+            "entidad": "Nueva EPS",
+            "valor": 1789000
+          },
+          "pension": {
+            "entidad": "Colfondos",
+            "valor": 7305500
+          },
+          "riesgosLaborales": {
+            "entidad": "Positiva Compañía de Seguros S.A.",
+            "valor": 233900
+          },
+          "cajaCompensacion": {
+            "entidad": "Comfenalco",
+            "valor": 1788900
+          }
+        },
+        {
+          "comprobanteNo": "6028786409",
+          "entidad": "SOI",
+          "planillaNo": "9845217432",
+          "valorAporte": 11099600,
+          "periodoCotizacion": "Julio",
+          "salud": {
+            "entidad": "Nueva EPS",
+            "valor": 1786200
+          },
+          "pension": {
+            "entidad": "Colfondos",
+            "valor": 7294400
+          },
+          "riesgosLaborales": {
+            "entidad": "Positiva Compañía de Seguros S.A.",
+            "valor": 233500
+          },
+          "cajaCompensacion": {
+            "entidad": "Comfenalco",
+            "valor": 1786200
+          }
+        },
+        {
+          "comprobanteNo": "6033573006",
+          "entidad": "SOI",
+          "planillaNo": "9845217433",
+          "valorAporte": 10815400,
+          "periodoCotizacion": "Agosto",
+          "salud": {
+            "entidad": "Nueva EPS",
+            "valor": 1740900
+          },
+          "pension": {
+            "entidad": "Colfondos",
+            "valor": 7112900
+          },
+          "riesgosLaborales": {
+            "entidad": "Positiva Compañía de Seguros S.A.",
+            "valor": 220900
+          },
+          "cajaCompensacion": {
+            "entidad": "Comfenalco",
+            "valor": 1740800
+          }
+        }
+      ],
+      "createdAt": "2026-09-28T10:00:00Z",
+      "updatedAt": "2026-10-04T09:00:00Z"
+    },
+    {
+      "id": "report-51642a46-3cb6-400a-95e9-ce747c61759d",
+      "contratoId": "contract-001",
+      "numeroContrato": "No 230 DEL 2026",
+      "contratistaId": "user-contratista-01",
+      "contratistaNombre": "Seven Soluciones Informáticas S.A.S",
+      "periodo": "25/08/2026 - 24/10/2026",
+      "fechaInicioPeriodo": "2026-08-25",
+      "fechaFinPeriodo": "2026-10-24",
+      "numeroActa": 2,
+      "lugarFechaActa": "QUIMBAYA, QUINDÍO, 21/10/2026",
+      "actividades": [
+        {
+          "obligacion": "1. Realizar la actualización del sistema de información...",
+          "actividadRealizada": "Se implementó el parche de seguridad y actualización de módulos de radicación.",
+          "productos": "Parche v2.4 desplegado en producción.",
+          "fechas": "Septiembre 2026",
+          "fotografias": [
+            {
+              "id": "ph-1",
+              "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg==",
+              "descripcion": "Evidencia de actualización del servidor"
+            }
+          ]
+        }
+      ],
+      "logros": "",
+      "dificultades": "",
+      "estado": "Aprobado",
+      "fechaRadicacion": "2026-10-21T16:37:49.861Z",
+      "historialEstados": [
+        {
+          "estado": "Radicado",
+          "fecha": "2026-10-21T16:37:49.757Z",
+          "usuario": "Seven Soluciones Informáticas S.A.S",
+          "observaciones": "Radicación de informe mensual y solicitud de supervisión."
+        },
+        {
+          "estado": "Devuelto",
+          "fecha": "2026-10-21T16:37:49.858Z",
+          "usuario": "Carlos Alberto Correa Mejía",
+          "observaciones": "Falta adjuntar el comprobante de pago de la planilla PILA del mes de octubre."
+        },
+        {
+          "estado": "Radicado",
+          "fecha": "2026-10-21T16:37:49.861Z",
+          "usuario": "Seven Soluciones Informáticas S.A.S",
+          "observaciones": "Se adjuntó la planilla PILA solicitada por la supervisión."
+        },
+        {
+          "estado": "Aprobado",
+          "fecha": "2026-10-21T16:37:49.864Z",
+          "usuario": "Carlos Alberto Correa Mejía",
+          "observaciones": "Cumplimiento verificado a entera satisfacción."
+        }
+      ],
+      "financiero": {
+        "valorInicial": 13785393.3,
+        "valoresAdicionales": 0,
+        "valorPagadoALaFecha": 0,
+        "valorPresentePago": 4595131,
+        "saldoPorPagar": 9190262.3,
+        "saldoPorEjecutar": 9190262.3,
+        "valorTotalFinal": 13785393.3,
+        "porcentajeAvanceTiempoPeriodo": 33.33,
+        "porcentajeAvanceFinancieroPeriodo": 33.33,
+        "porcentajeAvanceTiempoAcumulado": 79.5,
+        "porcentajeAvanceFinancieroAcumulado": 33.33
+      },
+      "verificacionIntegral": {
+        "tecnico": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "administrativo": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "financiero": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "contable": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "juridico": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "bienesRecibidos": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "bienesPendientes": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "informesPresentados": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        }
+      },
+      "controlNovedades": {
+        "retrasos": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "requerimientos": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "incumplimiento": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "ajusteCronograma": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "suspensionProrroga": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "riesgos": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        }
+      },
+      "controlPrincipios": {
+        "cumplimientoObligaciones": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "correspondenciaActividades": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "soportesSuficientes": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "observanciaPrincipios": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "situacionesRequerimiento": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        }
+      },
+      "analisisPago": {
+        "relacionObligaciones": {
+          "verificacion": "SI",
+          "observaciones": ""
+        },
+        "productosRevisados": {
+          "verificacion": "SI",
+          "observaciones": ""
+        },
+        "soportesSuficientes": {
+          "verificacion": "SI",
+          "observaciones": ""
+        },
+        "seguridadSocialVerificada": {
+          "verificacion": "SI",
+          "observaciones": ""
+        },
+        "procedeReconocimiento": {
+          "verificacion": "SI",
+          "observaciones": ""
+        }
+      },
+      "conceptoGeneral": "Satisfactorio",
+      "conclusionSeguimiento": "Una vez revisadas las obligaciones contractuales, las actividades ejecutadas, los productos entregados y los soportes documentales, se deja constancia de que la ejecución del contrato durante el periodo comprendido entre el 2026-08-25 y el 2026-10-24 fue SATISFACTORIA y procede el trámite del pago correspondiente. No se presentaron observaciones adicionales ni novedades que afectaran la ejecución contractual.",
+      "cumplimientoObjeto": "Se cumplió satisfactoriamente el objeto contractual durante el periodo informado.",
+      "recursosUtilizados": "Los recursos suministrados por la MUNICIPIO DE QUIMBAYA, QUINDÍO.",
+      "evidenciasEjecucion": "Informe de actividades, productos y evidencias publicadas en la plataforma SECOP II.",
+      "historialActasConcepto": [
+        {
+          "nroActa": 2,
+          "valorTotal": 13785393.3,
+          "valorEjecutado": 4595131,
+          "saldo": 9190262.3
+        }
+      ],
+      "aportesSeguridadSocial": [],
+      "createdAt": "2026-10-21T16:37:49.757Z",
+      "updatedAt": "2026-10-21T16:37:49.864Z",
+      "observacionesSupervisor": "Cumplimiento verificado a entera satisfacción.",
+      "fechaRevision": "2026-10-21T16:37:49.864Z",
+      "revisadoPor": "Carlos Alberto Correa Mejía",
+      "radicar": true,
+      "observacionesRadicacion": "Se adjuntó la planilla PILA solicitada por la supervisión."
+    },
+    {
+      "id": "report-dca3fcfd-ce54-440b-81ca-56d0de3780e7",
+      "contratoId": "contract-001",
+      "numeroContrato": "No 230 DEL 2026",
+      "contratistaId": "user-contratista-01",
+      "contratistaNombre": "Seven Soluciones Informáticas S.A.S",
+      "periodo": "25/08/2026 - 24/09/2026",
+      "fechaInicioPeriodo": "2026-08-25",
+      "fechaFinPeriodo": "2026-09-24",
+      "numeroActa": 3,
+      "lugarFechaActa": "QUIMBAYA, QUINDÍO, 22/10/2026",
+      "actividades": [
+        {
+          "id": "act-1",
+          "obligacion": "1. Realizar la actualización del sistema de información, Intraweb Ventanilla Única...",
+          "actividadRealizada": "Se implementó la actualización de seguridad del módulo de radicación electrónica.",
+          "productos": "Módulo de ventanilla única actualizado v2.4",
+          "fotografias": [
+            {
+              "id": "file-f05b4890-a882-41d2-8b14-c80646a3588e",
+              "fileId": "file-f05b4890-a882-41d2-8b14-c80646a3588e",
+              "url": "/api/uploads/file-f05b4890-a882-41d2-8b14-c80646a3588e",
+              "descripcion": "Captura de pantalla de actualización Intraweb",
+              "fecha": "2026-09-10"
+            }
+          ]
+        },
+        {
+          "id": "act-2",
+          "obligacion": "2. Proveer y mantener un sistema integrado de atención al ciudadano PQRD...",
+          "actividadRealizada": "Atención y soporte a 45 requerimientos ciudadanos en la plataforma.",
+          "productos": "Reporte consolidado de PQRD atendidas",
+          "fotografias": [
+            {
+              "id": "file-d8968a3c-e374-4d2a-a1f7-9f944e38cc92",
+              "fileId": "file-d8968a3c-e374-4d2a-a1f7-9f944e38cc92",
+              "url": "/api/uploads/file-d8968a3c-e374-4d2a-a1f7-9f944e38cc92",
+              "descripcion": "Registro de tickets atendidos en mesa de ayuda",
+              "fecha": "2026-09-15"
+            }
+          ]
+        },
+        {
+          "id": "act-3",
+          "obligacion": "3. Implementar una unidad de correspondencia digital orientada a cero papel...",
+          "actividadRealizada": "Gestión y clasificación de 120 comunicaciones oficiales radicadas electrónicamente.",
+          "productos": "Libro radicado digital"
+        },
+        {
+          "id": "act-4",
+          "obligacion": "4. Adecuar y migrar los sistemas web Intraweb hacia esquema en la nube...",
+          "actividadRealizada": "Monitoreo de disponibilidad del servidor cloud en 99.8%.",
+          "productos": "Certificado de uptime cloud"
+        },
+        {
+          "id": "act-5",
+          "obligacion": "5. Prestar el servicio de mesa de ayuda virtual...",
+          "actividadRealizada": "Soporte remoto permanente a funcionarios de la alcaldía.",
+          "productos": "Bitácora de soporte técnico mensual"
+        },
+        {
+          "id": "act-6",
+          "obligacion": "6. Brindar un total de ocho (8) horas de acompañamiento y capacitación mensual...",
+          "actividadRealizada": "Capacitación presencial de 4 horas a secretarios de despacho y 4 horas virtuales.",
+          "productos": "Listado de asistencia y material formativo"
+        }
+      ],
+      "logros": "Excelente acogida de la plataforma por parte de los ciudadanos.",
+      "dificultades": "Ninguna dificultad presentada.",
+      "estado": "Radicado",
+      "fechaRadicacion": "2026-10-22T16:28:22.838Z",
+      "historialEstados": [
+        {
+          "estado": "Borrador",
+          "fecha": "2026-10-22T16:28:22.256Z",
+          "usuario": "Seven Soluciones Informáticas S.A.S",
+          "observaciones": "Creación de borrador."
+        },
+        {
+          "estado": "Radicado",
+          "fecha": "2026-10-22T16:28:22.267Z",
+          "usuario": "Seven Soluciones Informáticas S.A.S",
+          "observaciones": "Acta de supervisión oficial generada exitosamente y radicada ante la supervisión bajo el consecutivo institucional RAD-2026-00101."
+        },
+        {
+          "estado": "Radicado",
+          "fecha": "2026-10-22T16:28:22.838Z",
+          "usuario": "Seven Soluciones Informáticas S.A.S",
+          "observaciones": "Acta de supervisión oficial generada exitosamente y radicada ante la supervisión bajo el consecutivo institucional RAD-2026-00101."
+        }
+      ],
+      "financiero": {
+        "valorInicial": 13785393.3,
+        "valoresAdicionales": 0,
+        "valorPagadoALaFecha": 4595131,
+        "valorPresentePago": 4595131,
+        "saldoPorPagar": 4595131.300000001,
+        "saldoPorEjecutar": 4595131.300000001,
+        "valorTotalFinal": 13785393.3,
+        "porcentajeAvanceTiempoPeriodo": 33.33,
+        "porcentajeAvanceFinancieroPeriodo": 33.33,
+        "porcentajeAvanceTiempoAcumulado": 79.79,
+        "porcentajeAvanceFinancieroAcumulado": 66.67
+      },
+      "verificacionIntegral": {
+        "tecnico": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "administrativo": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "financiero": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "contable": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "juridico": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "bienesRecibidos": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "bienesPendientes": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "informesPresentados": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        }
+      },
+      "controlNovedades": {
+        "retrasos": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "requerimientos": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "incumplimiento": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "ajusteCronograma": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "suspensionProrroga": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "riesgos": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        }
+      },
+      "controlPrincipios": {
+        "cumplimientoObligaciones": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "correspondenciaActividades": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "soportesSuficientes": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "observanciaPrincipios": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        },
+        "situacionesRequerimiento": {
+          "resultado": "Cumple",
+          "observaciones": ""
+        }
+      },
+      "analisisPago": {
+        "relacionObligaciones": {
+          "verificacion": "SI",
+          "observaciones": ""
+        },
+        "productosRevisados": {
+          "verificacion": "SI",
+          "observaciones": ""
+        },
+        "soportesSuficientes": {
+          "verificacion": "SI",
+          "observaciones": ""
+        },
+        "seguridadSocialVerificada": {
+          "verificacion": "SI",
+          "observaciones": ""
+        },
+        "procedeReconocimiento": {
+          "verificacion": "SI",
+          "observaciones": ""
+        }
+      },
+      "conceptoGeneral": "Satisfactorio",
+      "conclusionSeguimiento": "Una vez revisadas las obligaciones contractuales, las actividades ejecutadas, los productos entregados y los soportes documentales, se deja constancia de que la ejecución del contrato durante el periodo comprendido entre el 2026-08-25 y el 2026-09-24 fue SATISFACTORIA y procede el trámite del pago correspondiente. No se presentaron observaciones adicionales ni novedades que afectaran la ejecución contractual.",
+      "cumplimientoObjeto": "Se cumplió satisfactoriamente el objeto contractual durante el periodo informado.",
+      "recursosUtilizados": "Los recursos suministrados por la MUNICIPIO DE QUIMBAYA, QUINDÍO.",
+      "evidenciasEjecucion": "Informe de actividades, productos y evidencias publicadas en la plataforma SECOP II.",
+      "historialActasConcepto": [
+        {
+          "nroActa": 3,
+          "valorTotal": 13785393.3,
+          "valorEjecutado": 9190262,
+          "saldo": 4595131.300000001
+        }
+      ],
+      "aportesSeguridadSocial": [
+        {
+          "comprobanteNo": "9845217430",
+          "entidad": "SOI",
+          "planillaNo": "9845217430",
+          "valorAporte": 10769300,
+          "periodoCotizacion": "Agosto 2026",
+          "salud": {
+            "entidad": "Nueva EPS",
+            "valor": 1732200
+          },
+          "pension": {
+            "entidad": "Colfondos",
+            "valor": 7078400
+          },
+          "riesgosLaborales": {
+            "entidad": "Positiva",
+            "valor": 226500
+          },
+          "cajaCompensacion": {
+            "entidad": "Comfenalco",
+            "valor": 1732200
+          }
+        }
+      ],
+      "createdAt": "2026-10-22T16:28:22.256Z",
+      "updatedAt": "2026-10-22T16:28:22.964Z",
+      "numeroRadicacion": "RAD-2026-00101",
+      "archivoPdfPath": "/app/applet/data/actas/Acta_RAD-2026-00101.pdf"
+    }
+  ],
+  "socialSecurity": [
+    {
+      "id": "ss-001",
+      "contratistaId": "user-contratista-01",
+      "contratistaNombre": "Seven Soluciones Informáticas S.A.S",
+      "contratoId": "contract-001",
+      "periodo": "Mayo - Agosto 2026",
+      "numeroPlanilla": "9845217430",
+      "operadorPila": "SOI",
+      "valorPagado": 10769300,
+      "fechaPago": "2026-08-20",
+      "saludEntidad": "Nueva EPS",
+      "saludValor": 1732200,
+      "pensionEntidad": "Colfondos",
+      "pensionValor": 7078400,
+      "arlEntidad": "Positiva Compañía de Seguros S.A.",
+      "arlValor": 226500,
+      "cajaEntidad": "Comfenalco",
+      "cajaValor": 1732200,
+      "soporteNombre": "Planilla_PILA_Periodo2_2026.pdf",
+      "estado": "Al día",
+      "observaciones": "Aportes integrales validados en el operador SOI.",
+      "createdAt": "2026-08-20T09:15:00Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "pay-002",
+      "contratoId": "contract-001",
+      "numeroContrato": "No 230 DEL 2026",
+      "contratistaId": "user-contratista-01",
+      "contratistaNombre": "Seven Soluciones Informáticas S.A.S",
+      "periodo": "25/04/2026 - 24/08/2026",
+      "valor": 4595131,
+      "informeId": "report-002",
+      "estado": "Pendiente certificación",
+      "fechaCertificacion": "",
+      "referenciaPago": "ACTA-SUP-02-2026",
+      "createdAt": "2026-10-02T14:30:00Z"
+    },
+    {
+      "id": "pay-318f819c-8aca-47b1-b9c6-0fd0c45ac1c9",
+      "contratoId": "contract-001",
+      "numeroContrato": "No 230 DEL 2026",
+      "contratistaId": "user-contratista-01",
+      "contratistaNombre": "Seven Soluciones Informáticas S.A.S",
+      "periodo": "25/08/2026 - 24/10/2026",
+      "valor": 4595131,
+      "informeId": "report-51642a46-3cb6-400a-95e9-ce747c61759d",
+      "estado": "Certificado por supervisión",
+      "fechaCertificacion": "2026-10-21",
+      "referenciaPago": "ACTA-SUP-2-No230DEL2026",
+      "createdAt": "2026-10-21T16:37:49.864Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit-1795463134318-10w6r",
+      "usuarioId": "user-contratista-1795463134132-ztlw",
+      "usuarioNombre": "Prueba Persistencia",
+      "usuarioRol": "contratista",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como contratista.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-11-23T19:45:34.318Z"
+    },
+    {
+      "id": "audit-1795463134224-ic05p",
+      "usuarioId": "user-contratista-1795463134132-ztlw",
+      "usuarioNombre": "Prueba Persistencia",
+      "usuarioRol": "contratista",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como contratista.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-11-23T19:45:34.224Z"
+    },
+    {
+      "id": "audit-1795463134133-nk3ol",
+      "usuarioId": "user-supervisor-01",
+      "usuarioNombre": "Carlos Alberto Correa Mejía",
+      "usuarioRol": "supervisor",
+      "accion": "CREACION_CONTRATISTA",
+      "modulo": "usuarios",
+      "detalles": "Creación del perfil de contratista Prueba Persistencia (CC 99887766) por supervisor Carlos Alberto Correa Mejía.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-11-23T19:45:34.133Z"
+    },
+    {
+      "id": "audit-1795463134045-tf7pe",
+      "usuarioId": "user-supervisor-01",
+      "usuarioNombre": "Carlos Alberto Correa Mejía",
+      "usuarioRol": "supervisor",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como supervisor.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-11-23T19:45:34.045Z"
+    },
+    {
+      "id": "audit-1795449676613-lci8e",
+      "usuarioId": "user-admin-01",
+      "usuarioNombre": "Administrador General del Sistema",
+      "usuarioRol": "admin",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como admin.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-11-23T16:01:16.614Z"
+    },
+    {
+      "id": "audit-1794931794498-p6sjm",
+      "usuarioId": "user-contratista-01",
+      "usuarioNombre": "Seven Soluciones Informáticas S.A.S",
+      "usuarioRol": "contratista",
+      "accion": "RADICACION_ACTA_SUPERVISION",
+      "modulo": "informes",
+      "detalles": "El contratista Seven Soluciones Informáticas S.A.S radicó formalmente el informe y generó el Acta Oficial de Supervisión No. 4 con radicado No. RAD-2026-00102.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-11-17T16:09:54.498Z"
+    },
+    {
+      "id": "audit-1793982396424-5071d",
+      "usuarioId": "user-contratista-01",
+      "usuarioNombre": "Seven Soluciones Informáticas S.A.S",
+      "usuarioRol": "contratista",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como contratista.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-11-06T16:26:36.424Z"
+    },
+    {
+      "id": "audit-1792767588127-ea39o",
+      "usuarioId": "user-contratista-01",
+      "usuarioNombre": "Seven Soluciones Informáticas S.A.S",
+      "usuarioRol": "contratista",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como contratista.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-23T14:59:48.127Z"
+    },
+    {
+      "id": "audit-1792767588016-bolal",
+      "usuarioId": "user-admin-01",
+      "usuarioNombre": "Administrador General del Sistema",
+      "usuarioRol": "admin",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como admin.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-23T14:59:48.016Z"
+    },
+    {
+      "id": "audit-1792767587849-2vyg8",
+      "usuarioId": "user-supervisor-01",
+      "usuarioNombre": "Carlos Alberto Correa Mejía",
+      "usuarioRol": "supervisor",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como supervisor.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-23T14:59:47.849Z"
+    },
+    {
+      "id": "audit-1792767577341-9f6y9",
+      "usuarioId": "user-admin-01",
+      "usuarioNombre": "Administrador General del Sistema",
+      "usuarioRol": "admin",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como admin.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-23T14:59:37.341Z"
+    },
+    {
+      "id": "audit-1792767564629-0f2rh",
+      "usuarioId": "user-admin-01",
+      "usuarioNombre": "Administrador General del Sistema",
+      "usuarioRol": "admin",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como admin.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-23T14:59:24.629Z"
+    },
+    {
+      "id": "audit-1792767557377-h28ne",
+      "usuarioId": "user-contratista-01",
+      "usuarioNombre": "Seven Soluciones Informáticas S.A.S",
+      "usuarioRol": "contratista",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como contratista.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-23T14:59:17.377Z"
+    },
+    {
+      "id": "audit-1792767557285-96veb",
+      "usuarioId": "user-supervisor-01",
+      "usuarioNombre": "Carlos Alberto Correa Mejía",
+      "usuarioRol": "supervisor",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como supervisor.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-23T14:59:17.285Z"
+    },
+    {
+      "id": "audit-1792767556600-ipsps",
+      "usuarioId": "user-admin-01",
+      "usuarioNombre": "Administrador General del Sistema",
+      "usuarioRol": "admin",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como admin.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-23T14:59:16.600Z"
+    },
+    {
+      "id": "audit-1792688592518-30wsr",
+      "usuarioId": "user-contratista-01",
+      "usuarioNombre": "Seven Soluciones Informáticas S.A.S",
+      "usuarioRol": "contratista",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como contratista.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-22T17:03:12.518Z"
+    },
+    {
+      "id": "audit-1792688588494-0cq2r",
+      "usuarioId": "user-contratista-01",
+      "usuarioNombre": "Seven Soluciones Informáticas S.A.S",
+      "usuarioRol": "contratista",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como contratista.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-22T17:03:08.494Z"
+    },
+    {
+      "id": "audit-1792688583342-skptf",
+      "usuarioId": "user-admin-01",
+      "usuarioNombre": "Administrador General del Sistema",
+      "usuarioRol": "admin",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como admin.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-22T17:03:03.342Z"
+    },
+    {
+      "id": "audit-1792688564391-242kk",
+      "usuarioId": "user-supervisor-01",
+      "usuarioNombre": "Carlos Alberto Correa Mejía",
+      "usuarioRol": "supervisor",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como supervisor.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-22T17:02:44.391Z"
+    },
+    {
+      "id": "audit-1792688558228-d69sa",
+      "usuarioId": "user-contratista-01",
+      "usuarioNombre": "Seven Soluciones Informáticas S.A.S",
+      "usuarioRol": "contratista",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como contratista.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-22T17:02:38.228Z"
+    },
+    {
+      "id": "audit-1792688553714-jm38l",
+      "usuarioId": "user-contratista-01",
+      "usuarioNombre": "Seven Soluciones Informáticas S.A.S",
+      "usuarioRol": "contratista",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como contratista.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-22T17:02:33.714Z"
+    },
+    {
+      "id": "audit-1792688543309-yrlw4",
+      "usuarioId": "user-contratista-01",
+      "usuarioNombre": "Seven Soluciones Informáticas S.A.S",
+      "usuarioRol": "contratista",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como contratista.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-22T17:02:23.309Z"
+    },
+    {
+      "id": "audit-1792686502964-ngbu7",
+      "usuarioId": "user-contratista-01",
+      "usuarioNombre": "Seven Soluciones Informáticas S.A.S",
+      "usuarioRol": "contratista",
+      "accion": "RADICACION_ACTA_SUPERVISION",
+      "modulo": "informes",
+      "detalles": "El contratista Seven Soluciones Informáticas S.A.S radicó formalmente el informe y generó el Acta Oficial de Supervisión No. 3 con radicado No. RAD-2026-00101.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-22T16:28:22.964Z"
+    },
+    {
+      "id": "audit-1792686502657-upanh",
+      "usuarioId": "user-contratista-01",
+      "usuarioNombre": "Seven Soluciones Informáticas S.A.S",
+      "usuarioRol": "contratista",
+      "accion": "RADICACION_ACTA_SUPERVISION",
+      "modulo": "informes",
+      "detalles": "El contratista Seven Soluciones Informáticas S.A.S radicó formalmente el informe y generó el Acta Oficial de Supervisión No. 3 con radicado No. RAD-2026-00101.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-22T16:28:22.657Z"
+    },
+    {
+      "id": "audit-1792686502190-doqcf",
+      "usuarioId": "user-contratista-01",
+      "usuarioNombre": "Seven Soluciones Informáticas S.A.S",
+      "usuarioRol": "contratista",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como contratista.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-22T16:28:22.190Z"
+    },
+    {
+      "id": "audit-1792602135648-yap5u",
+      "usuarioId": "user-admin-01",
+      "usuarioNombre": "Administrador General del Sistema",
+      "usuarioRol": "admin",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como admin.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-21T17:02:15.648Z"
+    },
+    {
+      "id": "audit-1792602130698-vwwjw",
+      "usuarioId": "user-contratista-1792602130602-bp9l",
+      "usuarioNombre": "Andrés Felipe Ramírez Jaramillo",
+      "usuarioRol": "contratista",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como contratista.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-21T17:02:10.698Z"
+    },
+    {
+      "id": "audit-1792602130603-5rgbx",
+      "usuarioId": "user-supervisor-1792602130390-be4v",
+      "usuarioNombre": "María Elena Restrepo Gómez",
+      "usuarioRol": "supervisor",
+      "accion": "CREACION_CONTRATISTA",
+      "modulo": "usuarios",
+      "detalles": "Creación del perfil de contratista Andrés Felipe Ramírez Jaramillo (CC 1094987654) por supervisor María Elena Restrepo Gómez.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-21T17:02:10.603Z"
+    },
+    {
+      "id": "audit-1792602130494-1pqvo",
+      "usuarioId": "user-supervisor-1792602130390-be4v",
+      "usuarioNombre": "María Elena Restrepo Gómez",
+      "usuarioRol": "supervisor",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como supervisor.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-21T17:02:10.494Z"
+    },
+    {
+      "id": "audit-1792602130391-hz9ih",
+      "usuarioId": "user-admin-01",
+      "usuarioNombre": "Administrador General del Sistema",
+      "usuarioRol": "admin",
+      "accion": "CREACION_SUPERVISOR",
+      "modulo": "usuarios",
+      "detalles": "Creación del perfil de supervisor institucional María Elena Restrepo Gómez (CC 75098234, cargo: Secretaria General y de Gobierno) por el Administrador.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-21T17:02:10.391Z"
+    },
+    {
+      "id": "audit-1792602130291-zpm6i",
+      "usuarioId": "user-admin-01",
+      "usuarioNombre": "Administrador General del Sistema",
+      "usuarioRol": "admin",
+      "accion": "INICIO_SESION",
+      "modulo": "seguridad",
+      "detalles": "Inicio de sesión exitoso como admin.",
+      "ip": "127.0.0.1",
+      "fecha": "2026-10-21T17:02:10.291Z"
+    }
+  ],
+  "evidenceFiles": [
+    {
+      "id": "file-f05b4890-a882-41d2-8b14-c80646a3588e",
+      "originalName": "pantalla_intraweb_1.png",
+      "fileName": "17e43df8-3889-44bb-b1a9-92b6d9a13290_pantalla_intraweb_1.png",
+      "filePath": "/app/applet/data/uploads/17e43df8-3889-44bb-b1a9-92b6d9a13290_pantalla_intraweb_1.png",
+      "mimeType": "image/png",
+      "size": 70,
+      "uploadedBy": "user-contratista-01",
+      "uploadedByNombre": "Seven Soluciones Informáticas S.A.S",
+      "contratistaId": "user-contratista-01",
+      "contratoId": "contract-001",
+      "obligacionId": "act-1",
+      "tipo": "fotografia",
+      "descripcion": "Captura de pantalla de actualización Intraweb",
+      "createdAt": "2026-10-22T16:28:22.225Z"
+    },
+    {
+      "id": "file-d8968a3c-e374-4d2a-a1f7-9f944e38cc92",
+      "originalName": "soporte_mesa_ayuda.png",
+      "fileName": "350b59c9-e090-439d-80b8-ea1406da638b_soporte_mesa_ayuda.png",
+      "filePath": "/app/applet/data/uploads/350b59c9-e090-439d-80b8-ea1406da638b_soporte_mesa_ayuda.png",
+      "mimeType": "image/png",
+      "size": 70,
+      "uploadedBy": "user-contratista-01",
+      "uploadedByNombre": "Seven Soluciones Informáticas S.A.S",
+      "contratistaId": "user-contratista-01",
+      "contratoId": "contract-001",
+      "obligacionId": "act-2",
+      "tipo": "fotografia",
+      "descripcion": "Registro de tickets atendidos en mesa de ayuda",
+      "createdAt": "2026-10-22T16:28:22.237Z"
+    }
+  ],
+  "radicacionCounter": 102
+}
